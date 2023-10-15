@@ -1,3 +1,3 @@
 # projekti1
-Projekti ne html
+Projekti ne HTML+CSS
 Ky projekt ka per teme biografin time personale
