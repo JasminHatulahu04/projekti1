@@ -3,7 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
+    <style>
+   
+        li[class='football']::after{
+            content: '⚽';
+        }
+
+        .football{    
+            font-size: 28px;
+            color: brown;
+        } 
+        li[class='skiing']::after{
+            content: '🎿';
+        }
+        .skiing{
+            font-size: 28px;
+            color: brown;
+        }
+        li[class='games']::after{
+            content: '🎮';
+        }
+        .games{
+            font-size: 28px;
+            color: brown;
+        }
+        li[class='books']::after{
+            content: '📚';
+        }
+        .books{
+            font-size: 28px;
+            color: brown;
+        }
+
+    </style>
 </head>
 <body style="background-color: lightblue;">
  <p style="font-size: 50px; color: green;">Biografia ime</p>
@@ -13,7 +46,7 @@
     </legend>
   <h3 style="font-size: 35px; color: purple;">Te dhenat:</h3>
 
-<table >
+<table>
     <tr>
         <img src="jasmin.jpg" alt="jasmin" width="20%"  align="right">
     </tr>
@@ -65,12 +98,12 @@
 </table>
 </fieldset>
 <br><br>
-<fieldset style="border: 1px solid ;width: 1750px;">
+<fieldset style="border: 1px solid black ;width: 85%;">
     <legend style="font-size: 40px; color: blue;">Arsimimi dhe Hobi</legend>
     
     <h3 style="font-size: 35px; color: purple;">Shkollimi bazik:</h3>
 <table>
-    <tr >
+    <tr>
         <td style="font-size: 28px; color: brown;">Shkollimi fillor:</td>
         <td style="font-size: 28px;">SHFMU"Lek Dukagjini"Prizren</td>
     </tr>
@@ -81,10 +114,10 @@
 </table>
 <h3 style="font-size: 35px; color: purple;">Hobi:</h3>
 <ul>
-    <li style="font-size: 28px; color: brown;">Futbolli</li>
-    <li style="font-size: 28px; color: brown;">Skijimi</li>
-    <li style="font-size: 28px; color: brown;">Video Games</li>
-    <li style="font-size: 28px; color: brown;">Leximi i librave</li>
+    <li class="football">Futbolli</li>
+    <li class="skiing">Skijimi</li>
+    <li class="games">Video Games</li>
+    <li class="books">Leximi i librave</li>
 </ul>
 </fieldset>
 </body>
